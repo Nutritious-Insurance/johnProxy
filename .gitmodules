@@ -1,0 +1,9 @@
+[submodule "client/src/components/philipService"]
+	path = client/src/components/philipService
+	url = https://github.com/Nutritious-Insurance/philipService.git
+[submodule "client/src/components/javService"]
+	path = client/src/components/javService
+	url = https://github.com/Nutritious-Insurance/javService.git
+[submodule "client/src/components/johnService"]
+	path = client/src/components/johnService
+	url = https://github.com/Nutritious-Insurance/johnService.git
