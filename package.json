@@ -8,9 +8,12 @@
     "node": "^12"
   },
   "scripts": {
-    "startColourPreview": "npx node ColourPreview/server/index.js",
-    "start": "npx node server/index.js",
-    "start-dev": "webpack -d --watch"
+    "start": "node server/index.js",
+    "start-dev": "npm run start-jav & npm run start-john & npm run start-philip & npm run start & npm run start-webpack",
+    "start-jav": "node client/src/components/javService/server/index.js",
+    "start-john": "node client/src/components/johnService/server/index.js",
+    "start-philip": "node client/src/components/philipService/server/index.js",
+    "start-webpack": "webpack -d --watch"
   },
   "dependencies": {
     "axios": "^0.19.0",

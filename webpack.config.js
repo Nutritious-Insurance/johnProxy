@@ -24,7 +24,7 @@ module.exports = {
     ],
   },
   output: {
-    filename: 'johnBundle.js',
+    filename: 'bundle.js',
     path: DIST_DIR,
   },
   resolve: {
